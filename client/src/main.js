@@ -1,6 +1,6 @@
 import './assets/main.css'
 import axios from "axios";
-axios.defaults.baseURL = 'http://192.168.1.10:3000'; // temp
+axios.defaults.baseURL = 'http://localhost:3000'; // temp
 import { createStore } from 'vuex'
 import { createApp } from 'vue'
 import App from './App.vue'
