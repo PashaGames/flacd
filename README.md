@@ -29,7 +29,7 @@ A simple flashcard app
 
 ## Installation
 
-Pull this github repository and follow the steps for both client and server
+Clone this github repository and follow the steps for both client and server.
 
 ### Client
 
@@ -46,6 +46,8 @@ cd server
 npm i
 node index
 ```
+
+<h1>BEWARE THAT THIS PROJECT IS ONLY SUPPOSED TO RUN ON LOCALHOST</h1>
 
 ## Usage
 

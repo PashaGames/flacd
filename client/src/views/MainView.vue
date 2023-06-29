@@ -39,7 +39,6 @@ import FlashcardDisplay from "../components/FlashcardDisplay.vue"
             <button type="button" class="px-10 py-5 mt-5 mr-5 text-5xl text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 focus:outline-none " @click="finishTrain">{{ $t("main.finishCard") }}</button>
         </div>
 
-        <!-- А ИНАЧЕ пойду себе кофе наливать -->
     </div>
 </template>
 <script>
