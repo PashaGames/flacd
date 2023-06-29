@@ -163,7 +163,6 @@ app.directive("click-outside", clickOutside)
 app.use(i18n);
 app.use(router)
 app.use(store)
-console.log(i18n)
 dayjs.locale(i18n.locale);
 dayjs.extend(relativeTime)
 

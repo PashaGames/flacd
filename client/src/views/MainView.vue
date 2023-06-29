@@ -107,9 +107,9 @@ import FlashcardDisplay from "../components/FlashcardDisplay.vue"
             nextCard(){
                 this.training.index++;
                 if(this.training.data.length <= this.training.index){
-                    console.log(this.training.data.length,this.training.index)
+                    
                     this.training.finish = true;
-                    console.log("Cards ended")
+                
                 } else {
                     this.training.currentCard = this.training.data[this.training.index];
                 }

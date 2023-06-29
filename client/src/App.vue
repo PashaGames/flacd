@@ -9,11 +9,6 @@ import 'dayjs/locale/en';
 export default {
   async beforeCreate(){
       await this.$store.dispatch("loadStore");
-  },
-  methods: {
-    changeLocale(t){
-      console.log(t)
-    }
   }
 }
 </script>
